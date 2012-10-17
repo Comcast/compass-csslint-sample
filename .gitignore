@@ -15,6 +15,8 @@ tmp
 stylesheets
 .sass-cache
 
+Gemfile.lock
+
 # YARD artifacts
 .yardoc
 _yardoc
