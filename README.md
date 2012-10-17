@@ -11,3 +11,7 @@ This currently requires [a fix to Compass](https://github.com/Comcast/compass/co
 To install additional dependencies execute:
 
     $ bundle install
+
+If that command outputs 'Installing compass (0.12.2)', then you'll have to remove that so your custom version of Compass is used:
+
+    $ gem uninstall compass --version 0.12.2
