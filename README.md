@@ -6,12 +6,18 @@ Contains sample .sass files to demonstrate the usage of [CSS Lint for SASS & Com
 
 ## Installation
 
-This currently requires [a fix to Compass](https://github.com/Comcast/compass/commit/c829eab33bb4087e3e3c8f72385c9e8105dc6702) to run properly. Install the [custom version of Compass](https://github.com/Comcast/compass) via the instructions at the [CSS Lint for SASS & Compass Project Page](http://comcast.github.com/compass-csslint/) first.
-
-To install additional dependencies execute:
+Assuming ruby is installed on your system, clone this project & then from the root run:
 
     $ bundle install
 
-If that command outputs 'Installing compass (0.12.2)', then you'll have to remove that so your custom version of Compass is used:
+Note that this requires at least version 1.0.0.alpha.13 of [Compass](http://compass-style.org/) to work properly.
 
-    $ gem uninstall compass --version 0.12.2
+## Usage
+
+Run the following command from the root of the project:
+
+    $ compass csslint
+
+## Additional Links
+
+To see compass-csslint & other Compass command line extensions in action, checkout the [compass-extensions-sample](https://github.com/Comcast/compass-extensions-sample) repo
